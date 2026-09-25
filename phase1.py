@@ -149,7 +149,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 # Training (now tracks train + val loss/accuracy per epoch)
 # =====================================================
 
-epochs = 1
+epochs = 15
 
 train_losses = []
 val_losses = []
