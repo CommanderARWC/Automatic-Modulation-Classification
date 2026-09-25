@@ -344,5 +344,5 @@ for i in range(len(mod_names)):
 
 plt.tight_layout()
 plt.show()
-torch.save(model.state_dict(), "model_weights.pt")
+torch.save("model_weights.pt")
 print("Model weights saved successfully as model_weights.pt!")
